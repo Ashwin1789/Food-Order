@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./code/css/bootstrap.min.css">
+    <title>food order</title>
+    <style>
+        body
+        {
+            margin-left:100px;
+            margin-right:200px;
+            padding:0;
+            background-color:rgb(107, 107, 107);
+        }
+        #vegetarian
+        {
+            color:darkorange;
+            text-align: center;
+            text-decoration: underline;
+        }
+        #vdosa
+        {
+            margin-left:40px;
+        }
+        #vdosa1
+        {
+            float:left;
+        }
+        #vdosa2
+        {
+            float:left;
+            margin-left: 5px;
+        }
+
+        #vidly
+        {
+            margin-left:40px;
+        }
+        #vidly1
+        {
+            float:left;
+        }
+        #vidly2
+        {
+            float:left;
+            margin-left: 5px;
+        }
+        #vvadaiidly
+        {
+            margin-left:40px;
+        }
+        #vvadaiidly1
+        {
+            float:left;
+        }
+        #vvadaiidly2
+        {
+            float:left;
+            margin-left: 5px;
+        }
+        #vpongal
+        {
+            margin-left:40px;
+        }
+        #vpongal1
+        {
+            float:left;
+        }
+        #vpongal2
+        {
+            float:left;
+            margin-left: 5px;
+        }
+        #vpoori
+        {
+            margin-left:40px;
+        }
+        #vpoori1
+        {
+            float:left;
+        }
+        #vpoori2
+        {
+            float:left;
+            margin-left: 5px;
+        }
+        #vchappathi
+        {
+            margin-left:40px;
+        }
+        #vchappathi1
+        {
+            float:left;
+        }
+        #vchappathi2
+        {
+            float:left;
+            margin-left: 5px;
+        }
+        #vlemonrice
+        {
+            margin-left:40px;
+        }
+        #vlemonrice1
+        {
+            float:left;
+        }
+        #vlemonrice2
+        {
+            float:left;
+            margin-left: 5px;
+        }
+        #vmango
+        {
+            margin-left:40px;
+        }
+        #vmango1
+        {
+            float:left;
+        }
+        #vmango2
+        {
+            float:left;
+            margin-left: 5px;
+        }
+        #vsambarsatham
+        {
+            margin-left:40px;
+        }
+        #vsambarsatham1
+        {
+            float:left;
+        }
+        #vsambarsatham2
+        {
+            float:left;
+            margin-left: 5px;
+        }
+        #vvegmeals
+        {
+            margin-left:40px;
+        }
+        #vvegmeals1
+        {
+            float:left;
+        }
+        #vvegmeals2
+        {
+            float:left;
+            margin-left: 5px;
+        }
+        #vtomatorice
+        {
+            margin-left:40px;
+        }
+        #vtomatorice1
+        {
+            float:left;
+        }
+        #vtomatorice2
+        {
+            float:left;
+            margin-left: 5px;
+        }
+        #vtamirandrice
+        {
+            margin-left:40px;
+        }
+        #vtamirandrice1
+        {
+            float:left;
+        }
+        #vtamirandrice2
+        {
+            float:left;
+            margin-left: 5px;
+        }
+        h2
+        {
+            color:darkorange;
+            margin-left: 60px;
+        }
+        h3
+        {
+            color:darkorange;
+        }
+        a{
+            text-decoration: none;
+            color:darkorange;
+        }
+    </style>
+</head>
+<body>
+    <script src="./code/js/bootstrap.min.js"></script>
+    <script src="./code/js/jquery.min.js"></script>
+    <br><br>
+    <h1 id="vegetarian">VEGETARIAN VARIETS</h1>
+    <br><br><br>
+    <div class="row">
+        <div class="col">
+            <h2>DOSAI</h2>
+            <img  src="vdosa.jpg">
+        <br><h3>₹ 30 (1 dosa)</h3><br>
+        <div id="dosa">
+            <div id="vdosa1"><input type="number" placeholder="Qty" min="1" max="10"></div>
+            <div id="vdosa2"><input type="button" value="Add to order"></div>
+        </div>
+    </div>
+<div class="col">
+            <h2>IDLY</h2>
+            <img src="vidly.jpg">
+            <br><h3>₹ 10 (1 idly)</h3><br>
+            <div id="vidly">
+                <div id="vidly1"><input type="number" placeholder="Qty" min="1" max="10"></div>
+                <div id="vidly2"><input type="button" value="Add to order"></div>
+            </div>
+        </div>
+        <div class="col">
+            <h2>VADAI IDLY</h2>
+            <img src="vvadaiidly.jpg">
+            <br><h3>₹ 50 (1 plate)</h3><br>
+            <div id="vvadaiidly">
+                <div id="vvadaiidly1"><input type="number" placeholder="Qty" min="1" max="10"></div>
+                <div id="vvadaiidly2"><input type="button" value="Add to order"></div>
+            </div>
+        </div>
+    </div>
+    <br><hr><br>
+    <div class="row">
+        <div class="col">
+            <h2>PONGAL</h2>
+            <img src="vpongal.jpg">
+            <br><h3>₹ 80 (1 plate)</h3><br>                               
+            <div id="vpongal">
+                <div id="vpongal1"><input type="number" placeholder="Qty" min="1" max="10"></div>
+                <div id="vpongal2"><input type="button" value="Add to order"></div>
+            </div>
+        </div>
+        <div class="col">
+            <h2>POORI</h2>
+            <img src="vpoori.jpg">
+            <br><h3>₹ 10 (1 poori)</h3><br>
+            <div id="vpoori">
+                <div id="vpoori1"><input type="number" placeholder="Qty" min="1" max="10"></div>
+                <div id="vpoori2"><input type="button" value="Add to order"></div>
+            </div>
+        </div>
+        <div class="col">
+            <h2>CHAPPATHI</h2>
+            <img src="vchappathi.jpg">
+            <br><h3>₹ 15 (1 chappathi)</h3><br>
+            <div id="vchappathi">
+                <div id="vchappathi1"><input type="number" placeholder="Qty" min="1" max="10"></div>
+                <div id="vchappathi2"><input type="button" value="Add to order"></div>
+            </div>
+        </div>
+    </div>
+    <br><hr><br>
+    <div class="row">
+        <div class="col">
+            <h2>LEMON RICE</h2>
+            <img src="vlemonrice.jpg">
+            <br><h3>₹ 50 (1 plate)</h3><br>                               
+            <div id="vlemonrice">
+                <div id="vlemonrice1"><input type="number" placeholder="Qty" min="1" max="10"></div>
+                <div id="vlemonrice2"><input type="button" value="Add to order"></div>
+            </div>
+        </div>
+        <div class="col">
+            <h2>MANGO RICE</h2>
+            <img src="vmango.jpg">
+            <br><h3>₹ 50 (1 plate)</h3><br>
+            <div id="vmango">
+                <div id="vmango1"><input type="number" placeholder="Qty" min="1" max="10"></div>
+                <div id="vmango2"><input type="button" value="Add to order"></div>
+            </div>
+        </div>
+        <div class="col">
+            <h2>SAMBAR SATHAM</h2>
+            <img src="vsambarsatham.jpg">
+            <br><h3>₹ 50 (1 plate)</h3><br>
+            <div id="vsambarsatham">
+                <div id="vsambarsatham1"><input type="number" placeholder="Qty" min="1" max="10"></div>
+                <div id="vsambarsatham2"><input type="button" value="Add to order"></div>
+            </div>
+        </div>
+    </div>
+    <br><hr><br>
+    <div class="row">
+        <div class="col">
+            <h2>VEG MEALS</h2>
+            <img src="vvegmeals.jpg">
+            <br><h3>₹ 100 (1 full meals)</h3><br>                               
+            <div id="vvegmeals">
+                <div id="vvegmeals1"><input type="number" placeholder="Qty" min="1" max="10"></div>
+                <div id="vvegmeals2"><input type="button" value="Add to order"></div>
+            </div>
+        </div>
+        <div class="col">
+            <h2>TOMATO RICE</h2>
+            <img src="vtomatorice.jpg">
+            <br><h3>₹ 50 (1 plate)</h3><br>
+            <div id="vtomatorice">
+                <div id="vtomatorice1"><input type="number" placeholder="Qty" min="1" max="10"></div>
+                <div id="vtomatorice2"><input type="button" value="Add to order"></div>
+            </div>
+        </div>
+        <div class="col">
+            <h2>TAMIRAND RICE</h2>
+            <img src="vtamirandrice.jpg">
+            <br><h3>₹ 50 (1 plate)</h3><br>
+            <div id="vtamirandrice">
+                <div id="vtamirandrice1"><input type="number" placeholder="Qty" min="1" max="10"></div>
+                <div id="vtamirandrice2"><input type="button" value="Add to order"></div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <hr><h3><a href=index1.html>Go Back</a></h3><hr>
+    <br><br><br><br>
+</body>
+</html>
